@@ -41,7 +41,7 @@ file.close()
 #(f'{a1}x ** {k1} - {b1}x + {c1} = 0')
 
 k1 = int(input("Enter cof k1: "))
-
+#п
 a1 = 0
 b1 = 0
 c1 = 0
