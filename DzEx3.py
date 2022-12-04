@@ -7,8 +7,16 @@
 
 '''
 
+
 def one_of_all():
+    lst = list(input("Enter some numbers of 0 to 9: ").replace(',', ''))
     result = []
-    lst = list(input("Enter some numbers of 0 to 9: "))
+    for i in range(1 , 10):
+        if lst.count(f'{i}') == 1:
+            result.append(i)
+        else:
+            continue
+    print(result)
+    #result = lst.count('1')
 
-
+one_of_all()
