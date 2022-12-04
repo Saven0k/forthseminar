@@ -23,7 +23,7 @@ file5.close()
 
 file_result = open('result.txt', "w")
 
-result = f'{d.a + d.a1}x ** {d.k + d.k1} +  {d.b + d.b1}x +  {d.c + d.c1} = 0'
+result = f'{d.a + d.a1}(x ** {d.k + d.k1}) +  {d.b + d.b1}x +  {d.c + d.c1} = 0'
 
 file_result.write(result)
 
